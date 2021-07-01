@@ -2,10 +2,11 @@
   "name": "react-playground",
   "version": "1.0.0",
   "description": "Ract playground",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
     "test": "test",
-    "build": "webpack"
+    "build": "webpack --mode development",
+    "start": "npx webpack serve"
   },
   "repository": {
     "type": "git",
@@ -22,16 +23,29 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.12.0",
     "@babel/preset-react": "^7.12.0",
+    "@types/react": "^17.0.13",
+    "@types/react-router": "^5.1.15",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
     "babel-loader": "^8.0.0",
+    "css-loader": "^5.2.6",
     "enzyme": "^3.11.0",
     "eslint": "^7.29.0",
+    "eslint-plugin-react": "^7.24.0",
     "html-webpack-plugin": "^5.3.1",
     "jest": "^27.0.4",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.0",
+    "style-loader": "^3.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
     "webpack": "^5.39.1",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0"
   }
 }

@@ -1,7 +1,8 @@
 import React from 'react';
+import MainMenuRoutes from './mainMenu/MainMenuRoutes';
 
 const PlaygroundComponent = () => {
-    return <div>Hello world!</div>
+    return <MainMenuRoutes />
 }
 
 export default PlaygroundComponent;
