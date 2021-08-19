@@ -1,8 +1,10 @@
 import React from "react";
-import { logInfo } from '../../common/constants/logging/loggerUtils';
 
 const MainMenu = () => {
-    logInfo('kek')
-    return <div>Main menu</div>
+    return <div><h1>Main menu</h1>
+        <a>
+
+        </a>
+    </div>
 }
 export default MainMenu;
