@@ -1,4 +1,5 @@
 const Path = {
-    main: '/'
+    main: '/',
+    portal: '/portal'
 }
 export default Path;

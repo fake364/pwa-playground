@@ -3,9 +3,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const distPath = path.resolve(__dirname, "dist");
 
 module.exports = {
-  entry: "./index.js",
+  entry: { app: "./index.js", serviceWorker: './serviceWorkers/sw.tsx' },
   output: {
-    filename: "main.js",
+    filename: "[name].js",
     path: distPath,
   },
   devServer: {

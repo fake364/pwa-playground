@@ -1,0 +1,9 @@
+{
+    "name": "News PWA app",
+    "short_name": "News",
+    "theme_color": "#0081e7",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+  }
